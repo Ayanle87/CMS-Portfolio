@@ -1,0 +1,28 @@
+.blogpost-img {
+  width: 500px;
+  height: auto;
+}
+
+.blog-parent {
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .blogpost-img {
+    width: 320px;
+    height: 380px;
+    margin: 10px;
+    padding: 4px;
+  }
+  .blog-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .blog-text {
+    font-size: 15px;
+  }
+  .blog-parent {
+    padding: 16px;
+  }
+}
