@@ -29,6 +29,7 @@ const PortfolioPage = ({ data }) => {
           fluid="md"
           style={{
             padding: "14px ",
+            paddingBottom: "68px",
             backgroundColor: "#f5f5f5",
             boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
             borderRadius: " 12px",
